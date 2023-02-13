@@ -1,0 +1,42 @@
+.listagem .midia img {
+    max-width: 350px;
+    max-height: 250px;
+}
+
+.listagem .midia {
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    background-color: rgb (9 9 9 / 25%);
+    color: #ffffff;
+    padding: 0 5px;
+    cursor: pointer;
+    box-shadow: rgb(0 0 0 / 50%) 0px 5px 15px;
+    transition: 0.15s ease-in-out;
+    padding: 30px;
+    max-width: 1440px;
+    margin: 0 auto; 
+    background: crimson linear-gradient(to bottom, crimson, black);
+    border-radius: 25px;
+}
+
+.listagem ul {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.midia .midiaDiv .nome {
+    /* position: absolute; */
+    text-align: center;
+    display: flex;
+    margin: 15px auto;
+    flex-direction: column;
+}
+
+.listagem .imgMidia {
+    width: 100vw;
+    margin: auto;
+}
